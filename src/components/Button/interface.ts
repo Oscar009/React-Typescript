@@ -1,3 +1,3 @@
 export interface ButtonProps {
-    type?: 'primary' | 'default';
+  type?: "primary" | "default";
 }

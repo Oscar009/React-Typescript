@@ -1,7 +1,8 @@
 export interface CounterManagementProps {
-    ownerName: string;
+  ownerName: string;
 }
 
 export interface CounterManagementState {
-    counter: number;
+  counter: number;
+  users: string[];
 }
