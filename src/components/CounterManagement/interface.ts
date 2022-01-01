@@ -4,5 +4,17 @@ export interface CounterManagementProps {
 
 export interface CounterManagementState {
   counter: number;
-  users: string[];
+  userData: UserData;
+}
+
+export interface UserData {
+  id: number;
+  email: string;
+  first_name: string;
+  last_name: string;
+  avatar: string;
+}
+
+export interface UserDataAPI {
+  data: UserData;
 }
